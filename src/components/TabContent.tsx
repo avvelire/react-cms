@@ -20,7 +20,7 @@ const TabContent: React.FC<TabContentProps> = ({ tabs }) => {
 
   return (
     <div className="tabContent">
-      <Suspense>
+      <Suspense fallback="loading...">
         <TabComponent />
       </Suspense>
     </div>
