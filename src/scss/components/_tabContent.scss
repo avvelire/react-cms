@@ -1,0 +1,48 @@
+.tabContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 100px;
+}
+
+
+
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__title{
+
+            font-family: 'Roboto', sans-serif;
+
+    }
+
+    &__addButton{
+        margin-top: 20px;
+        width: 150px;
+        border-radius: 20px;
+        padding: 10px;
+        background-color: transparent;
+        color: black;
+        border: 1px solid ;
+
+    }
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+td, th {
+    width: 200px;
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    }
+
+
